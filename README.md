@@ -1,15 +1,15 @@
-#Epicenter Clone
+#Nick's Flicks
 
-#### By Julio Diaz, 25-Sep-2015
+#### By Julio Diaz, 2-Oct-2015
 
 ## Description
-Sign students in and out, check who's here using Angular-ui router and AJAX.
+Review movies
 
 ## Setup
 
 * Clone repository:
 ```console
-$ git clone https://github.com/ashlinaronin/experts.git
+$ git clone https://github.com/juliocesardiaz/nicksflicks.git
 $ cd experts
 $ python -m SimpleHTTPServer
 ```
