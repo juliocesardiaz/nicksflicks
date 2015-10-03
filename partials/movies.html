@@ -3,12 +3,12 @@
 		<div class="col-md-3">
 			<h3>Movies</h3>
 			<div ng-repeat="item in movies">
-				<a ng-click="query = $index">{{ item.movieTitle }}</a>
+				<a ng-click="displayMovie($index)">{{ item.movieTitle }}</a>
 			</div>
 		</div>
 		<div class="col-md-9">
-			<div ng-repeat="movie in movies">
-				<div ng-show="query = $index" ng-hide="query != $index">
+			<div>
+				<div>
 					<h2>{{ movie.movieTitle}}</h2>
 					<pre>{{ movie.movieReview}}</pre>
 				</div>
