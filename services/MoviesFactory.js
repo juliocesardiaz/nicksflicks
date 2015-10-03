@@ -11,6 +11,16 @@ nickflick.factory('MoviesFactory', function MoviesFactory() {
 				movieReview: "The film only seems to come to life when showing how challenging is the climb and how unpredictable and harsh      mother nature can be.",
 				id: 2,
 		},
+		{
+				movieTitle: "Sicario",
+				movieReview: "An unforgettable motion picture that should be on the must-see list for anyone who appreciates films that deal in grays rather than blacks and whites",
+				id: 3,
+		},
+		{
+				movieTitle: "Black Mass",
+				movieReview: "It's Depp's best work in years, suggesting that maybe his insistence on hiding behind heavy makeup and wigs in almost every recent role has not been the problem.",
+				id: 4,
+		},
 	];
 	factory.addMovies = function() {
 		factory.movies.push(
